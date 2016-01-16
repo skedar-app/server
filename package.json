@@ -1,0 +1,25 @@
+{
+  "name": "socks-server",
+  "version": "1.0.0",
+  "description": "socks server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skedar-app/socks-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skedar-app/socks-server/issues"
+  },
+  "homepage": "https://github.com/skedar-app/socks-server#readme",
+  "dependencies": {
+    "socket.io": "^1.4.4",
+    "socket.io-stream": "^0.9.0",
+    "socketio-sticky-session": "^0.4.1"
+  }
+}
